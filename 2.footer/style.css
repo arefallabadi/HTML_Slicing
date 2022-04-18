@@ -1,0 +1,43 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(86, 10, 121);
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+  justify-content: center;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.line {
+  border-bottom: solid 3px orange;
+  width: 45px;
+}
+.ul {
+  display: grid;
+  gap: 10px;
+}
+
+.followUp {
+  display: flex;
+  gap: 10px;
+}
