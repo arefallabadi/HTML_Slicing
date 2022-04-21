@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("./image.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+form {
+  font-size: 30px;
+  margin: 250px;
+  gap: 10px;
+  width: 300px;
+}
+
+.sub {
+  width: 250px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.des {
+  width: 500px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.btn {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.Shop {
+  background-color: rgb(255, 230, 0);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 800;
+  width: 150px;
+  height: 40px;
+
+}
+.Read {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 800;
+  width: 150px;
+}
